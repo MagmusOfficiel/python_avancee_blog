@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  {% load static %}
+  <link rel="stylesheet" type="text/css" href="{% static '/style.css' %}" />
+  <meta charset="UTF-8" />
+  <title>Mon blog</title>
+</head>
+
+<body>
+{% include 'DocBlog/navbar.html' %}
+{% include 'DocBlog/carousel.html' %}
+{% include 'DocBlog/contenue.html' %}
+{% include 'DocBlog/footer.html' %}
+</body>
+
+</html>
